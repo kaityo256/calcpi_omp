@@ -7,7 +7,7 @@
 
 std::vector<std::mt19937> mts;
 std::uniform_real_distribution<> ud(0.0, 1.0);
-const int N = 40;
+const int N = 128;
 const int OUTER_LOOP = 100;
 const int INNER_LOOP = 10000;
 std::vector<double> d(N, 0.0);
